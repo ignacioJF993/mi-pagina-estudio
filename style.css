@@ -324,6 +324,19 @@ footer {
   font-weight: 600;
 }
 
+.contact-alt {
+  margin-top: 1.2rem;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.contact-alt a {
+  color: var(--plum);
+  font-weight: 700;
+  border-bottom: 2px solid var(--panel);
+  text-decoration: none;
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 820px) {
   .presentacion-grid { grid-template-columns: 1fr; }
