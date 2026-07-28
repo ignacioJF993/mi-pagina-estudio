@@ -274,12 +274,13 @@ a { color: inherit; }
 .card p { color: var(--panel-text); font-size: 0.94rem; margin: 0; font-weight: 500; }
 
 .pricing-strip {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem;
+  display: inline-grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 3rem;
   background: var(--plum);
   border-radius: var(--radius);
-  padding: 1.8rem 2.2rem;
+  padding: 1.4rem 2.2rem;
+  margin: 2.4rem auto 0;
 }
 
 .pricing-label {
@@ -316,6 +317,15 @@ a { color: inherit; }
   transform: translateY(-2px);
 }
 
+.contacto {
+  text-align: center;
+}
+
+.contacto .btn-whatsapp {
+  margin-top: 0.5rem;
+}
+
+
 footer {
   text-align: center;
   padding: 2.6rem 2rem;
@@ -323,6 +333,8 @@ footer {
   font-size: 0.85rem;
   font-weight: 600;
 }
+
+
 
 .contact-alt {
   margin-top: 1.2rem;
